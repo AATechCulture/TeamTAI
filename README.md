@@ -14,7 +14,7 @@ Our solution will help customers dealing with unexpected cancellations or questi
 
 ## Tech Overview 💻
 
-# Getting Started 
+## Getting Started 
 *Step 1: Clone the Github repo to your local PC.
 
 *Step 2: Navigate to the cloned directory using the terminal.
@@ -31,7 +31,7 @@ Our solution will help customers dealing with unexpected cancellations or questi
 
 *Step 7: After scanning the QR code, Expo Go will load your app, and you'll be able to interact with it on your mobile device.
 
-#ToolKits
+## ToolKits
 We used some of the following tools, APIs, and languages to build our solution.
 * Twilio API
 * Javascript
