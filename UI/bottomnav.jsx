@@ -17,6 +17,7 @@ const BottomNavigation = () => {
 
   const handleCallClick = () => {
     Linking.openURL(`tel:${phoneNumber}`);
+    
     setTimeout(() => {
       setShowScreen(true);
     }, 10000);
@@ -79,14 +80,13 @@ const BottomNavigation = () => {
         }}
       />
       <Tab.Screen
-        name="Call Agent"
+        name="Flight status"
         component={CancelledScreen}
-      
+    
         options={{
           tabBarLabel: 'Call Agent',
           tabBarIcon: () => (
-            <Ionicons name="call-sharp" color="black" size={24} onPress={handleCallClick} />
-            
+          <Ionicons name="call-sharp" color="black" size={24} onPress={handleCallClick}/>
           ),
         
         }}

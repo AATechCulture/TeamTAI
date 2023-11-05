@@ -56,12 +56,14 @@ const CancelledScreen = () => {
                     <Text style={styles.planetext}>Departs Sunday, 4:52 PM</Text>
                     <Text style={styles.date}>SUNDAY, NOVEMBER 5, 2023. LUXEVU</Text>
                 </View>
+                <TouchableOpacity style ={{backgroundColor: 'green', margin: 20, marginTop: 0, padding: 10}} onPress={()=>{toggle+=1, setDone(false); console.log("Done", toggle)}}>
+        <Text style={{color: 'white', fontSize: 20, textAlign: 'center'}}> Call SkAI </Text>
+        </TouchableOpacity>
 
                 <View style={styles.promotionContainer}>
                     <Text style={styles.promotionText}>{word2}</Text>
                 </View>
             </ImageBackground>
-            <BottomNavigation />
         </ScrollView>
   );
 };
