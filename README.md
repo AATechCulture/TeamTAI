@@ -1,6 +1,6 @@
 # TeamTAI - BE Smart Hack 2023
 
-# Project Name: “SkyAI”
+# Project Name: “SkAI”
 
 ## Challenge Statement(s) Addressed 🎯
 * How might we give quicker responses to customers with urgent needs?
@@ -53,4 +53,4 @@ https://docs.google.com/document/d/1z_nTH-MQMr6ApuLyb6p3myrZg-gRSqEisjDJlJHB5HA/
 ### Project Checklist due before 10a Sunday 11/5 🏁
 - [X] Presentation complete and linked
 - [x] Video pitch recorded and linked
-- [ ] Code merged to main branch
+- [x] Code merged to main branch
