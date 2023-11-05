@@ -1,9 +1,20 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { Linking, TouchableOpacity, View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-
+import CancelledScreen from './Cancelled';
 
 const BottomNavigation = () => {
+  const phoneNumber = '8447380449'; // Replace with the desired phone number
+
+  const [showScreen, setShowScreen] = useState(false);
+
+  const handleCallClick = () => {
+    Linking.openURL(`tel:${phoneNumber}`);
+    setTimeout(() => {
+      setShowScreen(true);
+    }, 10000);
+  };
+
   return (
     <View style={styles.container}>
     <View style={styles.tab}>
@@ -18,10 +29,15 @@ const BottomNavigation = () => {
         <Ionicons name="airplane-outline" size={24} color="black" />
         <Text style={styles.tabText}>Book{'\n'}Flights</Text>
     </View>
-    <View style={styles.tab}>
+    <TouchableOpacity style={styles.tab} onPress={handleCallClick}>
         <Ionicons name="call-sharp" size={24} color="black"/>
         <Text style={styles.tabText}>Call{'\n'}Agent</Text>
-    </View>
+    </TouchableOpacity>
+    {showScreen && (
+        <View>
+          <CancelledScreen/>
+        </View>
+      )}
     </View>
   );
 };
