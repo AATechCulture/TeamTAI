@@ -1,7 +1,6 @@
 # TeamTAI - BE Smart Hack 2023
 
 # Project Name: “SkAI”
-
 ## Challenge Statement(s) Addressed 🎯
 * How might we give quicker responses to customers with urgent needs?
 * How might we personalize our technological customer support and increase trust therein?
@@ -14,6 +13,18 @@ A personalized AI call center in the American Airlines App built to assist users
 Our solution will help customers dealing with unexpected cancellations or questions about the flight answer questions about the next steps at the tip of their fingers without visiting a kiosk or calling the center. It helps relieve some of the anxiety around planning flights by providing relevant information about the passengers' itinerary. All this allows the customer to get the help they need quickly, releases pressure on airline employees, and improves customer experience.
 
 ## Tech Overview 💻
+
+## Getting Started 
+Clone the Github repo to your local PC.
+Navigate to the cloned directory using the terminal.
+Run the following command to install the required dependencies (including Node.js, npm, and Expo CLI):
+Run the following commands:
+  npm install
+  npm start
+Install the Expo Go app on your Android or iOS device from the respective app store.
+In the Expo DevTools, a QR code will be displayed. Open the Expo Go app on your mobile device and scan this QR code using the device's camera.
+After scanning the QR code, Expo Go will load your app, and you'll be able to interact with it on your mobile device.
+
 We used some of the following tools, APIs, and languages to build our solution.
 * Twilio API
 * Javascript
