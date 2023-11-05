@@ -2,7 +2,7 @@ import React from 'react';
 import { Linking, TouchableOpacity, View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-const BottomNavigation = () => {
+const BottomCancelled = () => {
   const phoneNumber = '8447380449'; // Replace with the desired phone number
 
   const handleCallClick = () => {
@@ -57,4 +57,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BottomNavigation;
+export default BottomCancelled;

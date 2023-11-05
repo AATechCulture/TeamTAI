@@ -83,7 +83,7 @@ const HomeScreen = () => {
                     <Text style={styles.promotionText}>{word2}</Text>
                 </View>
             </ImageBackground>
-            <BottomNavigation />
+            {/* <BottomNavigation /> */}
         </ScrollView>
         
   );
