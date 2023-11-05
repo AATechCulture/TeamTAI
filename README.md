@@ -15,15 +15,15 @@ Our solution will help customers dealing with unexpected cancellations or questi
 ## Tech Overview 💻
 
 ## Getting Started 
-Clone the Github repo to your local PC.
-Navigate to the cloned directory using the terminal.
-Run the following command to install the required dependencies (including Node.js, npm, and Expo CLI):
-Run the following commands:
-  npm install
-  npm start
-Install the Expo Go app on your Android or iOS device from the respective app store.
-In the Expo DevTools, a QR code will be displayed. Open the Expo Go app on your mobile device and scan this QR code using the device's camera.
-After scanning the QR code, Expo Go will load your app, and you'll be able to interact with it on your mobile device.
+*Clone the Github repo to your local PC.
+*Navigate to the cloned directory using the terminal.
+*Run the following command to install the required dependencies (including Node.js, npm, and Expo CLI):
+*Run the following commands:
+  -npm install
+  -npm start
+*Install the Expo Go app on your Android or iOS device from the respective app store.
+*In the Expo DevTools, a QR code will be displayed. Open the Expo Go app on your mobile device and scan this QR code using the device's camera.
+*After scanning the QR code, Expo Go will load your app, and you'll be able to interact with it on your mobile device.
 
 We used some of the following tools, APIs, and languages to build our solution.
 * Twilio API
