@@ -15,6 +15,8 @@ const shiftPercentage_savings = 90.5;
 
 
 const HomeScreen = () => {
+    const phoneNumber = '8447380449'; // Replace with the desired phone number
+
     const handleCallClick = () => {
         Linking.openURL(`tel:${phoneNumber}`);
         
